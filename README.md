@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Learning Objectives
 
-You can use the [editor on GitHub](https://github.com/colvinbmc/cit281-p6/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### After completing this project, you will:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Gain experience creating and working classes with inheritance
+### Gain more experience creating and working with classes
+### Gain more experience debugging code
+### Gain more experience using a generic block of code to process data
+### Gain more experience interpreting functional descriptions and specifications to complete an assignment
+### Gain more experience writing and executing non-web server Node.js JavaScript code using VSCode
+### Practice using modern JavaScript syntax
+### Gain more experience working with static data
 
-### Markdown
+## Overview
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You will be creating three classes. The first class is the Shape class that will serve as a base class for the other two classes. The second class is the Rectangle class that will inherit from Shape class. A class that inherits from another class can be called the child class of the base, or parent, class. The third class is the Triangle class that also will inherit from the Shape class.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/colvinbmc/cit281-p6/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The base Shape class will provide the common functionality of a method that returns the perimeter value. Each of the other two classes will provide their own versions of a method that returns the area value. 
